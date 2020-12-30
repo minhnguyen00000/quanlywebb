@@ -125,7 +125,7 @@ if (!empty($_SESSION['giohangkhachhang'])) {
    
 
   <script>
-   		//function capnhatItem(id){
+   		function capnhatItem(id){
    			soluong = $("#soluong_"+id).val();
    			$.get("index.php?ac=giohang&id="+id+"&soluong="+soluong, function(data){
    			
