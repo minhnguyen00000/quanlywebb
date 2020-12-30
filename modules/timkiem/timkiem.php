@@ -1,7 +1,3 @@
-<?php
-echo "Khong the tim kiem san pham";
-exit;
-?>
 <div class="main">
 	<div class="content">
 		<div class="content_top">
